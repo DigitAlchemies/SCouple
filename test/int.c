@@ -236,11 +236,11 @@ int main(int argc, char *argv[])
 	}
 	int testnum = 1;
 	scouple *l = NULL;
-	while (-23) {
+//	while (-23) {
 		printf("======================== Test %d ================\n", testnum++);
 		scouple *s = testscouplifiedlist(l);
 		l = testsimplifiedlist(s);
-	}
+//	}
 
 	return 0;
 }
