@@ -13,7 +13,7 @@ xor-logic. It couples previous and next nodes of a given node, together. The cou
 #### How intuitive and user-friendly is SCouple?
 `SCouple` has a comprehensive automated test-suite that's user-friendly due to its intuitive and eye-pleasing color codes. It performs all the list operations using randomly generated data sets. As a quality measure, `valgrind` has been used to confirm that the code is leak-free.
 
-Below snapshots indicate an automated test run. They cover all of the existing list operations with randomly generated data in an automated fashion. They are self-explantory with the diagnostic messages in them for each list operation. The middle node is highlighted with curly braces, `{}`.
+Below snapshots indicate an automated test run. They cover all of the existing list operations with randomly generated data in an automated fashion. They are self-explanatory with the diagnostic messages in them for each list operation. The middle node is highlighted with curly braces, `{}`.
 
 ![Snap 1](https://github.com/RaghavanSanthanam/SCouple/blob/master/snaps/1.png)
 ![Snap 2](https://github.com/RaghavanSanthanam/SCouple/blob/master/snaps/2.png)
@@ -62,13 +62,13 @@ Below snapshots indicate an automated test run. They cover all of the existing l
 * Test script : `starttests.sh`
 
 #### What are the steps to follow to build SCouple?
-    `mkdir SCouple`
-    `cd SCouple` # Get the code into this folder
-    `make` or `make all` # non-debug and non-atomic binaries.
-    `make atomic` # non-debug atomic binaries.
-    `make debug` # debug non-atomic binaries.
-    `make debugatomic` # debug and atomic binaries
-    `make every` # combines all of the above - for testing all builds
+    mkdir SCouple
+    cd SCouple # Get the code into this folder
+    make or make all # non-debug and non-atomic binaries.
+    make atomic # non-debug atomic binaries.
+    make debug # debug non-atomic binaries.
+    make debugatomic # debug and atomic binaries
+    make every # combines all of the above - for testing all builds
 
 #### How to test SCouple?
 After buidling, just run `starttests.sh` from `SCouple` folder.
