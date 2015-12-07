@@ -13,7 +13,7 @@ xor-logic. It couples previous and next nodes of a given node, together. The cou
 #### How intuitive and user-friendly is SCouple?
 `SCouple` has a comprehensive automated test-suite that's user-friendly due to its intuitive and eye-pleasing color codes. It performs all the list operations using randomly generated data sets. As a quality measure, `valgrind` has been used to confirm that the code is leak-free.
 
-Below snapshots indicate an automated test run. They cover all of the existing list operations with randomly generated data in an automated fashion. They are self-explanatory with the diagnostic messages in them for each list operation. The middle node is highlighted with curly braces, `{}`. First two are of non-debug modes and last on is from debug mode. In debug mode, even the addresses of the node and the respective data are displayed in that order, to quicken the debugging!
+Below snapshots indicate an automated test run. They cover all of the existing list operations with randomly generated data in an automated fashion. They are self-explanatory with the diagnostic messages in them for each list operation. The middle node is highlighted with curly braces, `{}`. First two are of non-debug modes and last one is of debug mode. In debug mode, even the addresses of the node and the respective data are displayed in that order, to quicken the debugging!
 
 ![Snap 1](https://github.com/RaghavanSanthanam/SCouple/blob/master/snaps/1.png)
 ![Snap 2](https://github.com/RaghavanSanthanam/SCouple/blob/master/snaps/2.png)
