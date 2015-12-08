@@ -24,10 +24,10 @@ Below snapshots indicate an automated test run. They cover all of the existing l
 `SCouple` supports atomicity. Metadata includes a `pthread_mutex` to make list operations atomic. Macro `__ATOMIC_SUPPORT__` helps in this. Lists can be atomicized while getting created or later. Same holds good for de-atomicizing when needed.
 
 #### How is data managed?
-`SCouple` allows user to have data of any type and define the applicable data operations. Each node will point to user data. And data operations are pointed by metdata. Data operations are convinently abstracted as an interface.
+`SCouple` allows user to have data of any type and define the applicable data operations. Each node will point to user data. And data operations are pointed by metadata. Data operations are conveniently abstracted as an interface.
 
 #### How scalable SCouple is?
-`SCouple` with its per-list metadata is as scalable as any other standard list implementaions.
+`SCouple` with its per-list metadata is as scalable as any other standard list implementations.
 
 #### How different is SCouple?
 `SCouple` implements the standard list operations and more with carefully crafted algorithms that account for the complex xor-based link manipulations each time when a node gets rearranged or removed. Good news is that APIs provided for performing list operations are so well-defined that user need not bother about the internals of the complex implementation.
